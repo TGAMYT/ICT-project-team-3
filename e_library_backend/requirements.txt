@@ -1,0 +1,7 @@
+fastapi
+uvicorn
+pymongo>=4.9,<4.10  # Important: Constrain pymongo for motor compatibility
+motor>=3.6        # Or the specific motor version you're using.
+pydantic
+dnspython>=2.0.0    # as email-validator requires
+email-validator
